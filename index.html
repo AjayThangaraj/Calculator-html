@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="main1"></div>
+            <div id="main2">
+                <div id="main21">
+                    <div class="main211" onclick="get_input('7')">7 </div>
+                    <div class="main212" onclick="get_input('8')">8</div>
+                    <div class="main213" onclick="get_input('9')">9</div>
+                    <div class="main214" onclick="get_input('/')">/</div>
+                </div>
+                <div id="main22">
+                    <div class="main211"onclick="get_input('4')">4</div>
+                    <div class="main212"onclick="get_input('5')">5</div> 
+                    <div class="main213"onclick="get_input('6')">6</div>
+                    <div class="main214"onclick="get_input('*')">*</div>
+                </div>
+                <div id="main23">
+                    <div class="main211"onclick="get_input('1')">1</div>
+                    <div class="main212"onclick="get_input('2')">2</div>
+                    <div class="main213"onclick="get_input('3')">3</div>
+                    <div class="main214"onclick="get_input('-')">-</div>
+                </div>
+                <div id="main24">
+                    <div class="main211"onclick="bks()">&#8592;</div>
+                    <div class="main212"onclick="get_input('0')">0</div>
+                    <div class="main213"onclick="get_input('.')">.</div>
+                    <div class="main214"onclick="get_input('+')">+</div>
+                </div>
+                <div id="main25">
+                    <div class="main251"onclick="clr()">CE</div>
+                    <div class="main251"onclick="submit()">=</div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+
+</html>

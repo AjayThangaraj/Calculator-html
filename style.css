@@ -1,0 +1,115 @@
+*{
+    background-color:rgb(8, 8, 9);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#main{
+    border: 2px solid rgba(0, 6, 7, 0.047);
+    background-color:gray;
+    height: 450px;
+    width: 30%;
+    padding-top: 25px;
+    margin-left: 35%;
+    margin-top: 4%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 5px;
+}
+
+#main1{
+    border: 2px solid black;
+    background-color: lightblue;
+    height: 60px;
+    width:95%;
+    margin-left: 2%;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column-reverse;
+}
+
+#main2{
+    border: 2px solid black;
+    background-color: black;
+    height: 360px;
+    width:95%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#main21,#main22,#main23,#main24,#main25{
+    height: 55px;
+    margin: 7px;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+
+
+}
+
+.main211, .main212, .main213{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.main214{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+
+.main251{
+    width: 160px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.main211:hover{
+    background-color: darkgray;
+     background-color: firebrick;
+}
+
+
+.main212:hover{
+    background-color: darkgray;
+     background-color: firebrick;
+}
+
+.main213:hover{
+    background-color: darkgray;
+     background-color: firebrick;
+}
+
+.main214:hover{
+    background-color: darkgray;
+     background-color: firebrick;
+}
+.main251:hover{
+    background-color: darkgray;
+     background-color: firebrick;
+}
+
